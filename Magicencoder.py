@@ -14,7 +14,7 @@ Credit()
 
 parol = input("Set Password: ")
 
-m=hashlib.md5(('test').encode('utf-8')).hexdigest()
+m=hashlib.md5(parol.encode('utf-8')).hexdigest()
 
 a = (parol)
 hashing = m
